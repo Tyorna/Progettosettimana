@@ -119,10 +119,13 @@ hr{
 }
 
 .foot{
-    display: block;
     text-decoration: none;
     color: white;
     text-decoration: underline;
+}
+
+.fa-solid, address{
+    display: inline-block;
 }
 
 #pix{
