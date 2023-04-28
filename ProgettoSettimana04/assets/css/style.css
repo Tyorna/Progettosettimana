@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Spectral&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-yellow{
+    background-color: #FFC017;
+}
+
+.bg-black{
+    background-color: black;
+    border-radius: 20px;;
+    color: #eee;
+}
+
+.c-gray{
+    color: #E6E6E6;
+}
+
+.c-d-gray{
+    color: #757575;
+}
+
+
+.a-c{
+    align-content: space-around;
+}
+
+.f-s{
+  font-size: 2rem;
+} 
+
+.f-s08{
+        font-size: 0.8rem;
+}
+
+.f-s09{
+    font-size: 0.9rem;
+}
+
+.f-s11{
+    font-size: 1.1rem;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+.pos-rel{
+    position: relative;
+}
+
+.z-ind{
+    z-index: 1;
+}
+
+.m-b{
+    margin-bottom: 60px;
+}
+
+.m-b0{
+    margin-bottom: 0px;
+}
+
+.m-b5{
+    margin-bottom: 5px;
+}
+
+.m-b10{
+    margin-bottom: 15px;
+}
+
+.m-b30{
+    margin-bottom: 30px;
+}
+
+.m-r90{
+    margin-right: 70px;
+}
+
+.m-r30{
+    margin-right: 30px;
+}
+
+.m-l{
+margin-left: 50px;
+}
+
+.m-t{
+    margin-top: 0;
+}
+
+.m-t15{
+    margin-top: 15px;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.w-50{
+  width: 50%;
+}
+
+.w-70{
+    width: 70%;
+  }
+
+.w-80{
+    width:80%;
+}
+
+.w-15{
+    width: 15%;
+  }
+
+.w-100{
+    width: 100%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 2;
+}
+
+.disp-f{
+    display: flex;
+}
+
+.flex-d-c{
+    flex-direction: column;
+}
+
+.align-i{
+    align-items: center;
+}
+
+header img{
+    width: 150px;
+    margin-right: 40%;
+}
+
+nav{
+    width:100%;
+}
+
+.new-head{
+    background-color:#1a8917 ;
+}
+
+li{
+    list-style: none;
+    margin-inline: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.getStarted{
+    padding:10px;
+    display: inline-block;
+    align-items: center;
+}
+
+.border{
+    border-bottom: 1px solid black;
+}
+
+main{
+    margin-top: 80px;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.f-size{
+    font-size: 1.5rem;
+}
+
+article{
+font-family: 'Spectral', serif;
+width: 100%;
+}
+
+/*animazione*/
+
+svg{
+    z-index: 0;
+    width: 70%;
+    margin-right: 0;
+    animation: emme 6s infinite;
+}
+
+.emme { 
+        opacity:0;
+        transition: 2s;
+}
+
+.container-svg{
+    fill: transparent;
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+#icon{
+    padding: 5px;
+    display: inline-block;
+}
+
+.container{
+    width: 30%;
+    margin: 10px;
+    margin-bottom: 20px
+}
+
+.a.i{
+  align-items: flex-start;
+}
+
+h4{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+h3{
+    cursor: pointer;
+}
+
+h4 img{
+    border-radius: 50%;
+    width: 20px;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+}
+
+.star{
+    position: relative;
+    top: 5px;
+    margin-left: 5px;
+}
+
+.immagine{
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%
+}
+
+.container2{
+    width: 70%;
+    height: 170px;
+}
+
+.bookmark{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+.section2{
+  width:100%;
+  overflow: hidden;
+}
+
+.text-article{
+  width:70%;
+}
+
+.button{
+  border: 1px solid gray;
+  background-color: #eae3e3;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 0.8rem;
+}
+
+aside{
+    margin-left: 60px;
+}
+
+.asideList{
+  justify-content: center;
+  align-content: space-around;
+}
+
+.sticky{
+    padding-top: 40px;
+    position: sticky;
+    top: 80px;
+}
+
+.asideList a{
+    margin: 5px;
+}
+
+@media screen and (max-width: 590px) {
+
+    li:nth-child(1), li:nth-child(2), li:nth-child(3){
+        display: none;
+    }
+
+    .banner{
+        width: 100%;
+    }
+        .divArticle, .containerArticle2{
+             flex-direction: column;
+             width: 100%;
+        }
+        .container{
+            width: 90%;
+            margin-right: 70px;
+        }
+
+        .container2{
+            height: 220px;
+            margin:0;
+        }
+
+        .container-svg{
+            display: none;
+        }
+
+        .containerArticle2{
+            margin-bottom: 0;
+        }
+
+        aside{ 
+            order: -1; 
+            margin-bottom: 30px;
+        }
+    
+}
+
+@media screen and (max-width: 790px) {
+     
+   header img{
+      margin-right: 50px;
+   }
+
+    .banner{
+        width: 80%;
+    }
+         .containerArticle2{
+             flex-direction: column;
+             width: 100%;
+        }
+        .container{
+            width: 40%;
+        }
+
+        .container-svg{
+            width: 500px;
+        }
+
+        .containerArticle2{
+            margin-bottom: 0;
+        }
+
+        aside{ 
+            order: -1; 
+            margin-bottom: 30px;
+        }
+    
+}
+
+
+
