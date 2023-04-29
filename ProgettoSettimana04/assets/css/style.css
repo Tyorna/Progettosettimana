@@ -214,11 +214,6 @@ svg{
     height: 100%;
 }
 
-#icon{
-    padding: 5px;
-    display: inline-block;
-}
-
 .container{
     width: 30%;
     margin: 10px;
@@ -305,44 +300,6 @@ aside{
     margin: 5px;
 }
 
-@media screen and (max-width: 590px) {
-
-    li:nth-child(1), li:nth-child(2), li:nth-child(3){
-        display: none;
-    }
-
-    .banner{
-        width: 100%;
-    }
-        .divArticle, .containerArticle2{
-             flex-direction: column;
-             width: 100%;
-        }
-        .container{
-            width: 90%;
-            margin-right: 70px;
-        }
-
-        .container2{
-            height: 220px;
-            margin:0;
-        }
-
-        .container-svg{
-            display: none;
-        }
-
-        .containerArticle2{
-            margin-bottom: 0;
-        }
-
-        aside{ 
-            order: -1; 
-            margin-bottom: 30px;
-        }
-    
-}
-
 @media screen and (max-width: 790px) {
      
    header img{
@@ -355,6 +312,7 @@ aside{
          .containerArticle2{
              flex-direction: column;
              width: 100%;
+            margin-bottom: 20px;
         }
         .container{
             width: 40%;
@@ -364,16 +322,62 @@ aside{
             width: 500px;
         }
 
-        .containerArticle2{
+        .containerArticle{
             margin-bottom: 0;
+        }
+
+        .article2, aside{
+            margin-left:0;
         }
 
         aside{ 
             order: -1; 
             margin-bottom: 30px;
         }
-    
+
+        .asideList{
+            justify-content: flex-start;
+        }
+        
+        .divArticle{
+        justify-content: space-around;
+    }
 }
 
+@media screen and (max-width: 590px) {
 
+    li:nth-child(1), li:nth-child(2), li:nth-child(3){
+        display: none;
+    }
+
+    .banner{
+        width: 100%;
+    }
+
+    article h2{
+        margin-left: 50px;
+    }
+
+    b{
+        font-size: 2.2rem;
+    }
+        .divArticle{
+             flex-direction: column;
+             width: 100%;
+        }
+        .container{
+            width: 90%;
+            margin-right: 70px;
+        }
+
+        .container2{
+            height: auto;
+            margin:0;
+            margin-bottom: 15px;
+        }
+
+        .container-svg{
+            display: none;
+        }
+}
 
