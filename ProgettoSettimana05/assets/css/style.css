@@ -100,4 +100,16 @@ footer ul li {
 
 li {
   list-style: none;
+}
+
+.arrow {
+  z-index: 2;
+  top: 220px;
+  left: 25px;
+}
+
+.arrow2 {
+  z-index: 2;
+  top: 220px;
+  right: 25px;
 }/*# sourceMappingURL=style.css.map */
