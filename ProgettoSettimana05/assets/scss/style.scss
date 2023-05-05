@@ -15,15 +15,13 @@ body, html{
 footer{
     border-top: 1px solid gray;
     max-width: 100%;
-    margin: 0;
-    bottom: 0;
+    margin-bottom: 20px;;
 
     p{
         margin: 10px auto;
     }
    ul{
-    margin:auto; 
-    margin-bottom: 30px;
+    margin:auto;
     li{
         display: inline-block;
         margin-inline: 20px;
