@@ -1,0 +1,22 @@
+.containerFooterCard {
+    width:100%;
+    border-top: 1px solid rgb(202, 202, 202);
+    padding: 1px;
+
+  .containerAvatar {
+    width: 10%;
+
+    .avatarImg {
+      width: 100%;
+    }
+  }
+
+  .containerAuthor {
+    width: 90%;
+
+    i {
+      top: 5px;
+      right: 10px;
+    }
+  }
+}

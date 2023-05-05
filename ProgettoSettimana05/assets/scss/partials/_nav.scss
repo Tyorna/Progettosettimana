@@ -1,0 +1,26 @@
+.bi-bell{
+    width: 100px;
+    background-color: rgb(206, 206, 206);
+
+    span{
+        top: 10px;
+        right: -10px;
+    }
+}
+
+.imgBan{
+    bottom: -20px;
+    right: 5px;
+
+}
+
+.open{
+    width:240px;
+    transform: translateX(-120px);
+}
+
+a:hover{
+    background-color: rgba(106, 106, 244, 0.5);
+    border-radius: 10px;
+}
+

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import "./partials/nav";
+@import "./partials/banner";
+@import "./partials/card";
+
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+  background-color: white;
+}
+
+footer{
+    border-top: 1px solid gray;
+    max-width: 100%;
+    margin: 0;
+    bottom: 0;
+
+    p{
+        margin: 10px auto;
+    }
+   ul{
+    margin:auto; 
+    margin-bottom: 30px;
+    li{
+        display: inline-block;
+        margin-inline: 20px;
+    }
+}
+}
+
+li{
+    list-style: none;
+}

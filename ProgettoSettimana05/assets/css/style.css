@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.bi-bell {
+  width: 100px;
+  background-color: rgb(206, 206, 206);
+}
+.bi-bell span {
+  top: 10px;
+  right: -10px;
+}
+
+.imgBan {
+  bottom: -20px;
+  right: 5px;
+}
+
+.open {
+  width: 240px;
+  transform: translateX(-120px);
+}
+
+a:hover {
+  background-color: rgba(106, 106, 244, 0.5);
+  border-radius: 10px;
+}
+
+.container {
+  min-width: 100%;
+}
+
+.banner {
+  background-color: rgb(106, 106, 244);
+}
+.banner p {
+  color: rgb(160, 160, 247);
+}
+.banner button {
+  padding: 11px 20px;
+}
+
+.bg-green {
+  background-color: rgb(77, 201, 117);
+}
+
+.icon {
+  background-color: rgb(255, 228, 200);
+  padding: 15px;
+  color: rgb(210, 147, 84);
+}
+
+.containerFooterCard {
+  width: 100%;
+  border-top: 1px solid rgb(202, 202, 202);
+  padding: 1px;
+}
+.containerFooterCard .containerAvatar {
+  width: 10%;
+}
+.containerFooterCard .containerAvatar .avatarImg {
+  width: 100%;
+}
+.containerFooterCard .containerAuthor {
+  width: 90%;
+}
+.containerFooterCard .containerAuthor i {
+  top: 5px;
+  right: 10px;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: white;
+}
+
+footer {
+  border-top: 1px solid gray;
+  max-width: 100%;
+  margin: 0;
+  bottom: 0;
+}
+footer p {
+  margin: 10px auto;
+}
+footer ul {
+  margin: auto;
+  margin-bottom: 30px;
+}
+footer ul li {
+  display: inline-block;
+  margin-inline: 20px;
+}
+
+li {
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */
