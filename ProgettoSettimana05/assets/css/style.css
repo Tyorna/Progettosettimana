@@ -43,6 +43,10 @@ a:hover {
 .banner button {
   padding: 11px 20px;
 }
+.banner img {
+  min-width: 100%;
+}
+
 .bg-green {
   background-color: rgb(77, 201, 117);
 }
@@ -55,6 +59,11 @@ a:hover {
 
 .card {
   height: 100%;
+  cursor: pointer;
+}
+
+.mainCard:hover {
+  transform: scale(1.1);
 }
 
 .card-title {
@@ -77,7 +86,7 @@ a:hover {
   color: gray;
 }
 .containerFooterCard .containerAuthor i {
-  top: 5px;
+  top: 12px;
   right: 10px;
 }
 
@@ -121,12 +130,16 @@ footer {
 footer p {
   margin: 10px auto;
 }
+footer p code {
+  font-size: 17px;
+}
 footer ul {
   margin: auto;
 }
 footer ul li {
   display: inline-block;
   margin-inline: 20px;
+  cursor: pointer;
 }
 
 li {

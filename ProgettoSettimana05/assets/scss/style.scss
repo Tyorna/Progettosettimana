@@ -19,12 +19,16 @@ footer{
 
     p{
         margin: 10px auto;
-    }
+
+      code{
+        font-size: 17px;
+      }}
    ul{
     margin:auto;
     li{
         display: inline-block;
         margin-inline: 20px;
+        cursor: pointer;
     }
 }
 }

@@ -1,6 +1,13 @@
 .card{
   height: 100%;
-}
+  cursor: pointer;
+   }
+
+
+   .mainCard:hover{
+      transform: scale(1.1);
+   }
+
 
 .card-title{
   font-size: 18px;
@@ -24,7 +31,7 @@
     color: gray;
 
     i {
-      top: 5px;
+      top: 12px;
       right: 10px;
     }
   }
