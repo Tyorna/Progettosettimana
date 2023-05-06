@@ -1,6 +1,7 @@
 .bi-bell{
     width: 100px;
     background-color: rgb(206, 206, 206);
+    padding: 14px 15px;
 
     span{
         top: 10px;
@@ -13,10 +14,15 @@
     right: 5px;
 
 }
+.imgBan2{
+    bottom: 5px;
+    right: 0px;
+
+}
 
 .open{
     width:240px;
-    transform: translateX(-120px);
+    transform: translateX(-165px);
 }
 
 a:hover{

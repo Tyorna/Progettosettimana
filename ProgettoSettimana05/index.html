@@ -81,18 +81,21 @@
                     </ul>
                 </div>
                 <div class="d-flex align-items-center ms-auto me-3">
-                    <div class="me-1"> <i class="bi bi-bell rounded-circle p-3 position-relative"><span class="position-absolute translate-middle p-2 bg-danger border border-light rounded-circle"></span></i>
+                    <div class="me-1"> <i class="bi bi-bell rounded-circle position-relative"><span
+                                class="position-absolute translate-middle p-2 bg-danger border border-light rounded-circle"></span></i>
                     </div>
                     <li class="nav-item dropdown">
                         <a class="dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="assets/img/avatar-1.jpg" alt="imgUser" class="rounded-circle" width="50">
-                            <span class="position-absolute p-2 bg-success border border-light rounded-circle imgBan"></span>
+                            <span
+                                class="position-absolute p-2 bg-success border border-light rounded-circle imgBan"></span>
                         </a>
                         <ul class="dropdown-menu open">
                             <div class="d-flex">
-                                <div>
+                                <div class="position-relative">
                                     <img src="assets/img/avatar-1.jpg" alt="imgUser" class="rounded-circle ms-1"
-                                        width="50">
+                                        width="50"><span
+                                        class="position-absolute p-2 bg-success border border-light rounded-circle imgBan2"></span>
                                 </div>
                                 <div class="ms-2">
                                     <p class="mb-0">Annette Black</p>
@@ -115,35 +118,37 @@
                     </li>
                 </div>
                 <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
         </nav>
     </header>
     <main>
         <div class="container w-100 m-0 mb-4 p-0">
             <div class="banner w-100 m-0 row">
-                <div class="col-12 col-md-6 p-4">
-                    <h1 class="text-white fw-bold">Welcome Web Students!</h1>
-                    <p>Hand-picked instructor and expertily created courses, designed for the modern students and
+                <div class="col-12 col-md-6 p-5 pb-0">
+                    <h1 class="text-white fw-bold mx-lg-5 mt-lg-4">Welcome Web Students!</h1>
+                    <p class="mx-lg-5">Hand-picked instructor and expertily created courses, designed for the modern
+                        students and
                         enterpreneur
                     </p>
                     <div class="d-flex mb-4">
-                        <button class="btn btn-success me-3 fw-semibold  text-white bg-green">Browse Courses</button>
+                        <button class="btn btn-success me-3 fw-semibold  text-white bg-green ms-lg-5">Browse
+                            Courses</button>
                         <button class="btn text-dark btn-light fw-semibold">Are You Instructor?</button>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
-                    <img src="assets/img/hero-img.png" alt="bannerImg" class="">
+                <div class="col-12 col-md-6 p-0">
+                    <img src="assets/img/hero-img.png" alt="bannerImg">
                 </div>
 
             </div>
         </div>
-        <section class="container p-4">
-            <div class="row d-lg-flex justify-content-center">
-                <div class="col-12 col-lg-4 d-flex mb-2 ">
+        <section class="container p-0">
+            <div class="row px-5 mx-lg-5 d-lg-flex justify-content-md-between align-items-md-center">
+                <div class="col-12 col-md-4 d-flex mb-2 ">
                     <div class="me-3">
                         <i class="fa-solid fa-video rounded-circle icon"></i>
                     </div>
@@ -152,7 +157,7 @@
                         <p>Enjoy a variety of fresh topics</p>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4 d-flex mb-2">
+                <div class="col-12 col-md-4 d-flex justify-content-md-end mb-2">
                     <div class="me-3">
                         <i class="fa-solid fa-user-group icon rounded-circle"></i>
                     </div>
@@ -161,7 +166,7 @@
                         <p>Find the right instructor for you</p>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4 d-flex mb-2">
+                <div class="col-12 col-md-4 d-flex mb-2 justify-content-md-end">
                     <div class="me-3">
                         <i class="fa-regular fa-clock icon rounded-circle"></i>
                     </div>
@@ -173,529 +178,590 @@
             </div>
         </section>
         <section>
-            <article class="container mb-5 p-5 pt-0  position-relative">
-                <button type="button" class="btn btn-light rounded-circle position position-absolute arrow"><code>&lt;</code></button>
-                <button type="button" class="btn btn-light rounded-circle position position-absolute arrow2"><code>&gt;</code></button>
-                <div class="row">
+            <article class="container mb-4 p-5 pt-0 position-relative">
+                <button type="button"
+                    class="btn btn-light rounded-circle position position-absolute arrow"><code>&lt;</code></button>
+                <button type="button"
+                    class="btn btn-light rounded-circle position position-absolute arrow2"><code>&gt;</code></button>
+                <div class="row mx-lg-5 card-group">
                     <h2 class="col-12 fw-semibold mb-4">Raccommended to you</h2>
-                    <div class=" col-6 col-lg-3 card p-0 rounded overflow-hidden">
-                        <div class="card-body p-0">
-                            <img src="assets/img/course-graphql.jpg" alt="card-img" class="w-100">
-                            <div class="p-3 pb-0">
-                                <h3 class="card-title fs-5 fw-semibold">GraphQL: introduction to graphQL for beginners
-                                </h3>
-                                <div class="d-flex">
-                                    <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>2h 40m</p>
-                                    <p class="text-secondary"><i class="bi bi-reception-4 text-primary"></i></i>Advance
-                                    </p>
-                                </div>
-                                <div class="d-flex">
-                                    <div><i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-half text-warning"></i>
-                                        <i class="bi bi-star text-warning"></i>
-                                        <i class="bi bi-star text-warning"></i>
+                    <div class=" col-6 col-lg-3 rounded overflow-hidden">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <img src="assets/img/course-graphql.jpg" alt="card-img" class="w-100">
+                                <div class="p-3 pb-0">
+                                    <h3 class="card-title  fw-semibold">GraphQL: introduction to graphQL for
+                                        beginners
+                                    </h3>
+                                    <div class="d-flex infoCard">
+                                        <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>2h 40m</p>
+                                        <p class="text-secondary"><i
+                                                class="bi bi-reception-4 text-primary"></i></i>Advance
+                                        </p>
                                     </div>
-                                    <p class=" text-warning mx-2"> 2.5</p>
-                                    <p class=" text-secondary"> (1,500)</p>
-                                </div>
-                                <div class="d-flex">
-                                    <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>500</p>
-                                    <del class="text-secondary ">
-                                        <code class="text-secondary fs-6">&dollar;</code>600
-                                    </del>
+                                    <div class="d-flex">
+                                        <div><i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-half text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                        </div>
+                                        <p class=" text-warning mx-2"> 2.5</p>
+                                        <p class=" text-secondary"> (1,500)</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>500
+                                        </p>
+                                        <del class="text-secondary ">
+                                            <code class="text-secondary fs-6">&dollar;</code>600
+                                        </del>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="d-flex containerFooterCard p-2 pb-0">
-                                <div class="containerAvatar m-0">
-                                    <img src="assets/img/avatar-5.jpg" alt="avatar"
-                                        class="rounded-circle avatarImg m-0">
+                            <div class="d-flex containerFooterCard card-footer">
+                                <div class="containerAvatar">
+                                    <img src="assets/img/avatar-5.jpg" alt="avatar" class="rounded-circle avatarImg">
                                 </div>
-                                <div class="containerAuthor position-relative d-md-flex justify-content-center align-items-center">
-                                    <p class="ms-2">Brooklyn Simmons
+                                <div class="containerAuthor position-relative d-flex align-items-center">
+                                    <p class="">Brooklyn Simmons
                                     </p>
                                     <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
-                                </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class=" col-6 col-lg-3 card p-0 rounded overflow-hidden">
-                        <div class="card-body p-0">
-                            <img src="assets/img/course-javascript.jpg" alt="card-img" class="w-100">
-                            <div class="insideText p-3 pb-0">
-                                <h3 class="card-title fs-5 fw-semibold">A Complete Beginner's Guide to JavaScript
-                                </h3>
-                                <div class="d-flex">
-                                    <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>4h 10m</p>
-                                    <p class="text-secondary"><i class="bi bi-reception-4 text-primary"></i></i>Advance
-                                    </p>
-                                </div>
-                                <div class="d-flex">
-                                    <div><i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-half text-warning"></i>
-                                        <i class="bi bi-star text-warning"></i>
+                    <div class=" col-6 col-lg-3 rounded overflow-hidden">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <img src="assets/img/course-javascript.jpg" alt="card-img" class="w-100">
+                                <div class="insideText p-3 pb-0">
+                                    <h3 class="card-title  fw-semibold">A Complete Beginner's Guide to JavaScript
+                                    </h3>
+                                    <div class="d-flex infoCard">
+                                        <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>4h 10m</p>
+                                        <p class="text-secondary"><i
+                                                class="bi bi-reception-4 text-primary"></i></i>Advance
+                                        </p>
                                     </div>
-                                    <p class=" text-warning mx-2"> 3.5</p>
-                                    <p class=" text-secondary"> (7,500)</p>
-                                </div>
-                                <div class="d-flex">
-                                    <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>700</p>
-                                    <del class="text-secondary ">
-                                        <code class="text-secondary fs-6">&dollar;</code>850
-                                    </del>
+                                    <div class="d-flex">
+                                        <div><i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-half text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                        </div>
+                                        <p class=" text-warning mx-2"> 3.5</p>
+                                        <p class=" text-secondary"> (7,500)</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>700
+                                        </p>
+                                        <del class="text-secondary ">
+                                            <code class="text-secondary fs-6">&dollar;</code>850
+                                        </del>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="d-flex containerFooterCard p-2 pb-0">
-                                <div class="containerAvatar m-0">
-                                    <img src="assets/img/avatar-2.jpg" alt="avatar"
-                                        class="rounded-circle avatarImg m-0">
+                            <div class="d-flex containerFooterCard card-footer">
+                                <div class="containerAvatar">
+                                    <img src="assets/img/avatar-2.jpg" alt="avatar" class="rounded-circle avatarImg">
                                 </div>
-                                <div class="containerAuthor position-relative d-md-flex justify-content-center align-items-center">
+                                <div class="containerAuthor position-relative">
                                     <p class="ms-2">Jenny Wilson
                                     </p>
                                     <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
-                                </div>
 
+
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class=" col-6 col-lg-3  d-none d-md-block card p-0 rounded overflow-hidden">
-                        <div class="card-body p-0">
-                            <img src="assets/img/course-node.jpg" alt="card-img" class="w-100">
-                            <div class="p-3 pb-0">
-                                <h3 class="card-title fs-5 fw-semibold">Beginning Node.js, Express & MongoDB Development
-                                </h3>
-                                <div class="d-flex">
-                                    <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>2h 00m</p>
-                                    <p class="text-secondary"><i class="bi bi-reception-3 text-primary"></i></i>Intermediate
-                                    </p>
-                                </div>
-                                <div class="d-flex">
-                                    <div><i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star text-warning"></i>
+                    <div class=" col-6 col-lg-3  d-none d-md-block rounded overflow-hidden">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <img src="assets/img/course-node.jpg" alt="card-img" class="w-100">
+                                <div class="p-3 pb-0">
+                                    <h3 class="card-title  fw-semibold">Beginning Node.js, Express & MongoDB
+                                        Development
+                                    </h3>
+                                    <div class="d-flex infoCard">
+                                        <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>2h 00m</p>
+                                        <p class="text-secondary"><i
+                                                class="bi bi-reception-3 text-primary"></i></i>Intermediate
+                                        </p>
                                     </div>
-                                    <p class=" text-warning mx-2"> 4.0</p>
-                                    <p class=" text-secondary"> (15,700)</p>
-                                </div>
-                                <div class="d-flex">
-                                    <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>800</p>
-                                    <del class="text-secondary ">
-                                        <code class="text-secondary fs-6">&dollar;</code>950
-                                    </del>
+                                    <div class="d-flex">
+                                        <div><i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                        </div>
+                                        <p class=" text-warning mx-2"> 4.0</p>
+                                        <p class=" text-secondary"> (15,700)</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>800
+                                        </p>
+                                        <del class="text-secondary ">
+                                            <code class="text-secondary fs-6">&dollar;</code>950
+                                        </del>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="d-flex containerFooterCard p-2 pb-0">
-                                <div class="containerAvatar m-0">
-                                    <img src="assets/img/avatar-6.jpg" alt="avatar"
-                                        class="rounded-circle avatarImg m-0">
+                            <div class="d-flex containerFooterCard card-footer">
+                                <div class="containerAvatar ">
+                                    <img src="assets/img/avatar-6.jpg" alt="avatar" class="rounded-circle avatarImg ">
                                 </div>
-                                <div class="containerAuthor position-relative d-md-flex justify-content-center align-items-center">
+                                <div class="containerAuthor position-relative">
                                     <p class="ms-2">Sina Ray
                                     </p>
                                     <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
-                                </div>
 
+
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class=" col-6 col-lg-3  d-none d-md-block card p-0 rounded overflow-hidden">
-                        <div class="card-body p-0">
-                            <img src="assets/img/course-laravel.jpg" alt="card-img" class="w-100">
-                            <div class="p-3 pb-0">
-                                <h3 class="card-title fs-5 fw-semibold">Laravel: The Ultimate Beginner's Guide to Learn
-                                </h3>
-                                <div class="d-flex">
-                                    <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>1h 00m</p>
-                                    <p class="text-secondary"><i class="bi bi-reception-1 text-primary"></i></i>Beginner
-                                    </p>
-                                </div>
-                                <div class="d-flex">
-                                    <div><i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-half text-warning"></i>
+                    <div class=" col-6 col-lg-3  d-none d-md-block rounded overflow-hidden">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <img src="assets/img/course-laravel.jpg" alt="card-img" class="w-100">
+                                <div class="p-3 pb-0">
+                                    <h3 class="card-title  fw-semibold">Laravel: The Ultimate Beginner's Guide to
+                                        Learn
+                                    </h3>
+                                    <div class="d-flex infoCard">
+                                        <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>1h 00m</p>
+                                        <p class="text-secondary"><i
+                                                class="bi bi-reception-1 text-primary"></i></i>Beginner
+                                        </p>
                                     </div>
-                                    <p class=" text-warning mx-2"> 4.5</p>
-                                    <p class=" text-secondary"> (2,500)</p>
-                                </div>
-                                <div class="d-flex">
-                                    <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>170</p>
-                                    <del class="text-secondary ">
-                                        <code class="text-secondary fs-6">&dollar;</code>220
-                                    </del>
+                                    <div class="d-flex">
+                                        <div><i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-half text-warning"></i>
+                                        </div>
+                                        <p class=" text-warning mx-2"> 4.5</p>
+                                        <p class=" text-secondary"> (2,500)</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>170
+                                        </p>
+                                        <del class="text-secondary ">
+                                            <code class="text-secondary fs-6">&dollar;</code>220
+                                        </del>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="d-flex containerFooterCard p-2 pb-0">
-                                <div class="containerAvatar m-0">
-                                    <img src="assets/img/avatar-7.jpg" alt="avatar"
-                                        class="rounded-circle avatarImg m-0">
+                            <div class="d-flex containerFooterCard card-footer">
+                                <div class="containerAvatar">
+                                    <img src="assets/img/avatar-7.jpg" alt="avatar" class="rounded-circle avatarImg">
                                 </div>
-                                <div class="containerAuthor position-relative d-md-flex justify-content-center align-items-center">
+                                <div class="containerAuthor position-relative">
                                     <p class="ms-2">Sobo Rikhan
                                     </p>
                                     <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
                                 </div>
 
                             </div>
+
                         </div>
                     </div>
                 </div>
 
             </article>
-            <article class="container mb-5 p-5 pt-0 position-reltaive">
-                <button type="button" class="btn btn-light rounded-circle position position-absolute arrow"><code>&lt;</code></button>
-                <button type="button" class="btn btn-light rounded-circle position position-absolute arrow2"><code>&gt;</code></button>
-                <div class="row">
+
+            <article class="container mb-4 p-5 pt-0 position-relative">
+                <button type="button"
+                    class="btn btn-light rounded-circle position position-absolute arrow"><code>&lt;</code></button>
+                <button type="button"
+                    class="btn btn-light rounded-circle position position-absolute arrow2"><code>&gt;</code></button>
+                <div class="row mx-lg-5">
                     <h2 class="col-12 fw-semibold mb-4">Most Popular</h2>
-                    <div class=" col-6 col-lg-3 card p-0 rounded overflow-hidden">
-                        <div class="card-body p-0">
-                            <img src="assets/img/course-html.jpg" alt="card-img" class="w-100">
-                            <div class="p-3 pb-0">
-                                <h3 class="card-title fs-5 fw-semibold">HTML Full Course -Build a Website Tutorial
-                                </h3>
-                                <div class="d-flex">
-                                    <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>3h 16m</p>
-                                    <p class="text-secondary"><i class="bi bi-reception-2 text-primary"></i></i>Beginner
-                                    </p>
-                                </div>
-                                <div class="d-flex">
-                                    <div><i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star text-warning"></i>
-                                        <i class="bi bi-star text-warning"></i>
+                    <div class=" col-6 col-lg-3 rounded overflow-hidden">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <img src="assets/img/course-html.jpg" alt="card-img" class="w-100">
+                                <div class="p-3 pb-0">
+                                    <h3 class="card-title  fw-semibold">HTML Full Course -Build a Website Tutorial
+                                    </h3>
+                                    <div class="d-flex infoCard">
+                                        <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>3h 16m</p>
+                                        <p class="text-secondary"><i
+                                                class="bi bi-reception-2 text-primary"></i></i>Beginner
+                                        </p>
                                     </div>
-                                    <p class=" text-warning mx-2"> 3.0</p>
-                                    <p class=" text-secondary"> (1,600)</p>
+                                    <div class="d-flex">
+                                        <div><i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                        </div>
+                                        <p class=" text-warning mx-2"> 3.0</p>
+                                        <p class=" text-secondary"> (1,600)</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>550
+                                        </p>
+                                        <del class="text-secondary ">
+                                            <code class="text-secondary fs-6">&dollar;</code>700
+                                        </del>
+                                    </div>
                                 </div>
-                                <div class="d-flex">
-                                    <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>550</p>
-                                    <del class="text-secondary ">
-                                        <code class="text-secondary fs-6">&dollar;</code>700
-                                    </del>
-                                </div>
-                            </div>
-                            <div class="d-flex containerFooterCard p-2 pb-0">
-                                <div class="containerAvatar m-0">
-                                    <img src="assets/img/avatar-4.jpg" alt="avatar"
-                                        class="rounded-circle avatarImg m-0">
-                                </div>
-                                <div class="containerAuthor position-relative d-md-flex justify-content-center align-items-center">
-                                    <p class="ms-2">Miston Wilson
-                                    </p>
-                                    <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
-                                </div>
+                                <div class="d-flex containerFooterCard card-footer">
+                                    <div class="containerAvatar">
+                                        <img src="assets/img/avatar-4.jpg" alt="avatar"
+                                            class="rounded-circle avatarImg">
+                                    </div>
+                                    <div class="containerAuthor position-relative">
+                                        <p class="ms-2">Miston Wilson
+                                        </p>
+                                        <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class=" col-6 col-lg-3 card p-0 rounded overflow-hidden">
-                        <div class="card-body p-0">
-                            <img src="assets/img/course-javascript.jpg" alt="card-img" class="w-100">
-                            <div class="p-3 pb-0">
-                                <h3 class="card-title fs-5 fw-semibold">A Complete Beginner's Guide to JavaScript
-                                </h3>
-                                <div class="d-flex">
-                                    <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>4h 10m</p>
-                                    <p class="text-secondary"><i class="bi bi-reception-4 text-primary"></i></i>Advance
-                                    </p>
-                                </div>
-                                <div class="d-flex">
-                                    <div><i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-half text-warning"></i>
-                                        <i class="bi bi-star text-warning"></i>
+                    <div class=" col-6 col-lg-3 rounded overflow-hidden">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <img src="assets/img/course-javascript.jpg" alt="card-img" class="w-100">
+                                <div class="p-3 pb-0">
+                                    <h3 class="card-title  fw-semibold">A Complete Beginner's Guide to JavaScript
+                                    </h3>
+                                    <div class="d-flex infoCard">
+                                        <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>4h 10m</p>
+                                        <p class="text-secondary"><i
+                                                class="bi bi-reception-4 text-primary"></i></i>Advance
+                                        </p>
                                     </div>
-                                    <p class=" text-warning mx-2"> 3.5</p>
-                                    <p class=" text-secondary"> (7,500)</p>
+                                    <div class="d-flex">
+                                        <div><i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-half text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                        </div>
+                                        <p class=" text-warning mx-2"> 3.5</p>
+                                        <p class=" text-secondary"> (7,500)</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>700
+                                        </p>
+                                        <del class="text-secondary ">
+                                            <code class="text-secondary fs-6">&dollar;</code>850
+                                        </del>
+                                    </div>
                                 </div>
-                                <div class="d-flex">
-                                    <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>700</p>
-                                    <del class="text-secondary ">
-                                        <code class="text-secondary fs-6">&dollar;</code>850
-                                    </del>
-                                </div>
-                            </div>
-                            <div class="d-flex containerFooterCard p-2 pb-0">
-                                <div class="containerAvatar m-0">
-                                    <img src="assets/img/avatar-2.jpg" alt="avatar"
-                                        class="rounded-circle avatarImg m-0">
-                                </div>
-                                <div class="containerAuthor position-relative d-md-flex justify-content-center align-items-center">
-                                    <p class="ms-2">Jenny Wilson
-                                    </p>
-                                    <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
-                                </div>
+                                <div class="d-flex containerFooterCard card-footer">
+                                    <div class="containerAvatar">
+                                        <img src="assets/img/avatar-2.jpg" alt="avatar"
+                                            class="rounded-circle avatarImg">
+                                    </div>
+                                    <div class="containerAuthor position-relative">
+                                        <p class="ms-2">Jenny Wilson
+                                        </p>
+                                        <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class=" col-6 col-lg-3 d-none d-md-block card p-0 rounded overflow-hidden">
-                        <div class="card-body p-0">
-                            <img src="assets/img/course-node.jpg" alt="card-img" class="w-100">
-                            <div class="p-3 pb-0">
-                                <h3 class="card-title fs-5 fw-semibold">Beginning Node.js, Express & MongoDB Development
-                                </h3>
-                                <div class="d-flex">
-                                    <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>2h 00m</p>
-                                    <p class="text-secondary"><i class="bi bi-reception-3 text-primary"></i></i>Intermediate
-                                    </p>
-                                </div>
-                                <div class="d-flex">
-                                    <div><i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star text-warning"></i>
+                    <div class=" col-6 col-lg-3 d-none d-md-block rounded overflow-hidden">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <img src="assets/img/course-node.jpg" alt="card-img" class="w-100">
+                                <div class="p-3 pb-0">
+                                    <h3 class="card-title  fw-semibold">Beginning Node.js, Express & MongoDB
+                                        Development
+                                    </h3>
+                                    <div class="d-flex infoCard">
+                                        <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>2h 00m</p>
+                                        <p class="text-secondary"><i
+                                                class="bi bi-reception-3 text-primary"></i></i>Intermediate
+                                        </p>
                                     </div>
-                                    <p class=" text-warning mx-2"> 4.0</p>
-                                    <p class=" text-secondary"> (15,700)</p>
+                                    <div class="d-flex">
+                                        <div><i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                        </div>
+                                        <p class=" text-warning mx-2"> 4.0</p>
+                                        <p class=" text-secondary"> (15,700)</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>800
+                                        </p>
+                                        <del class="text-secondary ">
+                                            <code class="text-secondary fs-6">&dollar;</code>950
+                                        </del>
+                                    </div>
                                 </div>
-                                <div class="d-flex">
-                                    <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>800</p>
-                                    <del class="text-secondary ">
-                                        <code class="text-secondary fs-6">&dollar;</code>950
-                                    </del>
-                                </div>
-                            </div>
-                            <div class="d-flex containerFooterCard p-2 pb-0">
-                                <div class="containerAvatar m-0">
-                                    <img src="assets/img/avatar-6.jpg" alt="avatar"
-                                        class="rounded-circle avatarImg m-0">
-                                </div>
-                                <div class="containerAuthor position-relative d-md-flex justify-content-center align-items-center">
-                                    <p class="ms-2">Sina Ray
-                                    </p>
-                                    <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
-                                </div>
+                                <div class="d-flex containerFooterCard card-footer">
+                                    <div class="containerAvatar">
+                                        <img src="assets/img/avatar-6.jpg" alt="avatar"
+                                            class="rounded-circle avatarImg">
+                                    </div>
+                                    <div class="containerAuthor position-relative">
+                                        <p class="ms-2">Sina Ray
+                                        </p>
+                                        <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class=" col-6 col-lg-3 d-none d-md-block card p-0 rounded overflow-hidden">
-                        <div class="card-body p-0">
-                            <img src="assets/img/course-react.jpg" alt="card-img" class="w-100">
-                            <div class="p-3 pb-0">
-                                <h3 class="card-title fs-5 fw-semibold">How to easly create a website with React
-                                </h3>
-                                <div class="d-flex">
-                                    <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>3h 55m</p>
-                                    <p class="text-secondary"><i class="bi bi-reception-4 text-primary"></i></i>Advance
-                                    </p>
-                                </div>
-                                <div class="d-flex">
-                                    <div><i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-half text-warning"></i>
+                    <div class=" col-6 col-lg-3 d-none d-md-block rounded overflow-hidden">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <img src="assets/img/course-react.jpg" alt="card-img" class="w-100">
+                                <div class="p-3 pb-0">
+                                    <h3 class="card-title  fw-semibold">How to easly create a website with React
+                                    </h3>
+                                    <div class="d-flex infoCard">
+                                        <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>3h 55m</p>
+                                        <p class="text-secondary"><i
+                                                class="bi bi-reception-4 text-primary"></i></i>Advance
+                                        </p>
                                     </div>
-                                    <p class=" text-warning mx-2"> 4.5</p>
-                                    <p class=" text-secondary"> (1,500)</p>
+                                    <div class="d-flex">
+                                        <div><i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-half text-warning"></i>
+                                        </div>
+                                        <p class=" text-warning mx-2"> 4.5</p>
+                                        <p class=" text-secondary"> (1,500)</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>600
+                                        </p>
+                                        <del class="text-secondary ">
+                                            <code class="text-secondary fs-6">&dollar;</code>750
+                                        </del>
+                                    </div>
                                 </div>
-                                <div class="d-flex">
-                                    <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>600</p>
-                                    <del class="text-secondary ">
-                                        <code class="text-secondary fs-6">&dollar;</code>750
-                                    </del>
-                                </div>
-                            </div>
-                            <div class="d-flex containerFooterCard p-2 pb-0">
-                                <div class="containerAvatar m-0">
-                                    <img src="assets/img/avatar-3.jpg" alt="avatar"
-                                        class="rounded-circle avatarImg m-0">
-                                </div>
-                                <div class="containerAuthor position-relative d-md-flex justify-content-center align-items-center">
-                                    <p class="ms-2">April Noms
-                                    </p>
-                                    <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
-                                </div>
+                                <div class="d-flex containerFooterCard card-footer">
+                                    <div class="containerAvatar">
+                                        <img src="assets/img/avatar-3.jpg" alt="avatar"
+                                            class="rounded-circle avatarImg">
+                                    </div>
+                                    <div class="containerAuthor position-relative">
+                                        <p class="ms-2">April Noms
+                                        </p>
+                                        <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-            
+
             </article>
-            <article class="container mb-5 p-5 pt-0 position-relative">
-                <button type="button" class="btn btn-light rounded-circle position position-absolute arrow"><code>&lt;</code></button>
-                <button type="button" class="btn btn-light rounded-circle position position-absolute arrow2"><code>&gt;</code></button>
-                <div class="row">
+
+            <article class="container mb-4 p-5 pt-0 position-relative">
+                <button type="button"
+                    class="btn btn-light rounded-circle position position-absolute arrow"><code>&lt;</code></button>
+                <button type="button"
+                    class="btn btn-light rounded-circle position position-absolute arrow2"><code>&gt;</code></button>
+                <div class="row mx-lg-5">
                     <h2 class="col-12 fw-semibold mb-4">Trending</h2>
-                    <div class=" col-6 col-lg-3 card p-0 rounded overflow-hidden">
-                        <div class="card-body p-0">
-                            <img src="assets/img/course-gatsby.jpg" alt="card-img" class="w-100">
-                            <div class="p-3 pb-0">
-                                <h3 class="card-title fs-5 fw-semibold">Revolutionize how you build the web
-                                </h3>
-                                <div class="d-flex">
-                                    <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>1h 46m</p>
-                                    <p class="text-secondary"><i class="bi bi-reception-3 text-primary"></i></i>Intermediate
-                                    </p>
-                                </div>
-                                <div class="d-flex">
-                                    <div><i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star text-warning"></i>
-                                        <i class="bi bi-star text-warning"></i>
-                                        <i class="bi bi-star text-warning"></i>
+                    <div class=" col-6 col-lg-3 rounded overflow-hidden">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <img src="assets/img/course-gatsby.jpg" alt="card-img" class="w-100">
+                                <div class="p-3 pb-0">
+                                    <h3 class="card-title  fw-semibold">Revolutionize how you build the web
+                                    </h3>
+                                    <div class="d-flex infoCard">
+                                        <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>1h 46m</p>
+                                        <p class="text-secondary"><i
+                                                class="bi bi-reception-3 text-primary"></i></i>Intermediate
+                                        </p>
                                     </div>
-                                    <p class=" text-warning mx-2"> 2.0</p>
-                                    <p class=" text-secondary"> (16,500)</p>
+                                    <div class="d-flex">
+                                        <div><i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                        </div>
+                                        <p class=" text-warning mx-2"> 2.0</p>
+                                        <p class=" text-secondary"> (16,500)</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>800
+                                        </p>
+                                        <del class="text-secondary ">
+                                            <code class="text-secondary fs-6">&dollar;</code>850
+                                        </del>
+                                    </div>
                                 </div>
-                                <div class="d-flex">
-                                    <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>800</p>
-                                    <del class="text-secondary ">
-                                        <code class="text-secondary fs-6">&dollar;</code>850
-                                    </del>
-                                </div>
-                            </div>
-                            <div class="d-flex containerFooterCard p-2 pb-0">
-                                <div class="containerAvatar m-0">
-                                    <img src="assets/img/avatar-2.jpg" alt="avatar"
-                                        class="rounded-circle avatarImg m-0">
-                                </div>
-                                <div class="containerAuthor position-relative d-md-flex justify-content-center align-items-center">
-                                    <p class="ms-2">Jenny Wilson
-                                    </p>
-                                    <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
-                                </div>
+                                <div class="d-flex containerFooterCard card-footer">
+                                    <div class="containerAvatar">
+                                        <img src="assets/img/avatar-2.jpg" alt="avatar"
+                                            class="rounded-circle avatarImg">
+                                    </div>
+                                    <div class="containerAuthor position-relative">
+                                        <p class="ms-2">Jenny Wilson
+                                        </p>
+                                        <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class=" col-6 col-lg-3 card p-0 rounded overflow-hidden">
-                        <div class="card-body p-0">
-                            <img src="assets/img/course-html.jpg" alt="card-img" class="w-100">
-                            <div class="p-3 pb-0">
-                                <h3 class="card-title fs-5 fw-semibold">HTML Full Course -Build a Website Tutorial
-                                </h3>
-                                <div class="d-flex">
-                                    <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>3h 16m</p>
-                                    <p class="text-secondary"><i class="bi bi-reception-2 text-primary"></i></i>Beginner
-                                    </p>
-                                </div>
-                                <div class="d-flex">
-                                    <div><i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star text-warning"></i>
-                                        <i class="bi bi-star text-warning"></i>
+                    <div class=" col-6 col-lg-3 rounded overflow-hidden">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <img src="assets/img/course-html.jpg" alt="card-img" class="w-100">
+                                <div class="p-3 pb-0">
+                                    <h3 class="card-title  fw-semibold">HTML Full Course -Build a Website Tutorial
+                                    </h3>
+                                    <div class="d-flex infoCard">
+                                        <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>3h 16m</p>
+                                        <p class="text-secondary"><i
+                                                class="bi bi-reception-2 text-primary"></i></i>Beginner
+                                        </p>
                                     </div>
-                                    <p class=" text-warning mx-2"> 3.0</p>
-                                    <p class=" text-secondary"> (1,600)</p>
+                                    <div class="d-flex">
+                                        <div><i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                        </div>
+                                        <p class=" text-warning mx-2"> 3.0</p>
+                                        <p class=" text-secondary"> (1,600)</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>550
+                                        </p>
+                                        <del class="text-secondary ">
+                                            <code class="text-secondary fs-6">&dollar;</code>700
+                                        </del>
+                                    </div>
                                 </div>
-                                <div class="d-flex">
-                                    <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>550</p>
-                                    <del class="text-secondary ">
-                                        <code class="text-secondary fs-6">&dollar;</code>700
-                                    </del>
-                                </div>
-                            </div>
-                            <div class="d-flex containerFooterCard p-2 pb-0">
-                                <div class="containerAvatar m-0">
-                                    <img src="assets/img/avatar-4.jpg" alt="avatar"
-                                        class="rounded-circle avatarImg m-0">
-                                </div>
-                                <div class="containerAuthor position-relative d-md-flex justify-content-center align-items-center">
-                                    <p class="ms-2">Miston Wilson
-                                    </p>
-                                    <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
-                                </div>
+                                <div class="d-flex containerFooterCard card-footer">
+                                    <div class="containerAvatar">
+                                        <img src="assets/img/avatar-4.jpg" alt="avatar"
+                                            class="rounded-circle avatarImg">
+                                    </div>
+                                    <div class="containerAuthor position-relative">
+                                        <p class="ms-2">Miston Wilson
+                                        </p>
+                                        <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class=" col-6 col-lg-3 d-none d-md-block card p-0 rounded overflow-hidden">
-                        <div class="card-body p-0">
-                            <img src="assets/img/course-node.jpg" alt="card-img" class="w-100">
-                            <div class="p-3 pb-0">
-                                <h3 class="card-title fs-5 fw-semibold">Beginning Node.js, Express & MongoDB Development
-                                </h3>
-                                <div class="d-flex">
-                                    <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>2h 00m</p>
-                                    <p class="text-secondary"><i class="bi bi-reception-3 text-primary"></i></i>Intermediate
-                                    </p>
-                                </div>
-                                <div class="d-flex">
-                                    <div><i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star text-warning"></i>
+                    <div class=" col-6 col-lg-3 d-none d-md-block rounded overflow-hidden">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <img src="assets/img/course-node.jpg" alt="card-img" class="w-100">
+                                <div class="p-3 pb-0">
+                                    <h3 class="card-title  fw-semibold">Beginning Node.js, Express & MongoDB
+                                        Development
+                                    </h3>
+                                    <div class="d-flex infoCard">
+                                        <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>2h 00m</p>
+                                        <p class="text-secondary"><i
+                                                class="bi bi-reception-3 text-primary"></i></i>Intermediate
+                                        </p>
                                     </div>
-                                    <p class=" text-warning mx-2"> 4.0</p>
-                                    <p class=" text-secondary"> (15,700)</p>
+                                    <div class="d-flex">
+                                        <div><i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star text-warning"></i>
+                                        </div>
+                                        <p class=" text-warning mx-2"> 4.0</p>
+                                        <p class=" text-secondary"> (15,700)</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>800
+                                        </p>
+                                        <del class="text-secondary ">
+                                            <code class="text-secondary fs-6">&dollar;</code>950
+                                        </del>
+                                    </div>
                                 </div>
-                                <div class="d-flex">
-                                    <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>800</p>
-                                    <del class="text-secondary ">
-                                        <code class="text-secondary fs-6">&dollar;</code>950
-                                    </del>
-                                </div>
-                            </div>
-                            <div class="d-flex containerFooterCard p-2 pb-0">
-                                <div class="containerAvatar m-0">
-                                    <img src="assets/img/avatar-6.jpg" alt="avatar"
-                                        class="rounded-circle avatarImg m-0">
-                                </div>
-                                <div class="containerAuthor position-relative d-md-flex justify-content-center align-items-center">
-                                    <p class="ms-2">Sina Ray
-                                    </p>
-                                    <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
-                                </div>
+                                <div class="d-flex containerFooterCard card-footer">
+                                    <div class="containerAvatar">
+                                        <img src="assets/img/avatar-6.jpg" alt="avatar"
+                                            class="rounded-circle avatarImg">
+                                    </div>
+                                    <div class="containerAuthor position-relative">
+                                        <p class="ms-2">Sina Ray
+                                        </p>
+                                        <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class=" col-6 col-lg-3 d-none d-md-block card p-0 rounded overflow-hidden">
-                        <div class="card-body p-0">
-                            <img src="assets/img/course-laravel.jpg" alt="card-img" class="w-100">
-                            <div class="p-3 pb-0">
-                                <h3 class="card-title fs-5 fw-semibold">Laravel: The Ultimate Beginner's Guide to Learn
-                                </h3>
-                                <div class="d-flex">
-                                    <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>1h 00m</p>
-                                    <p class="text-secondary"><i class="bi bi-reception-2 text-primary"></i></i>Beginner
-                                    </p>
-                                </div>
-                                <div class="d-flex">
-                                    <div><i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-half text-warning"></i>
+                    <div class=" col-6 col-lg-3 d-none d-md-block rounded overflow-hidden">
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <img src="assets/img/course-laravel.jpg" alt="card-img" class="w-100">
+                                <div class="p-3 pb-0">
+                                    <h3 class="card-title  fw-semibold">Laravel: The Ultimate Beginner's Guide to
+                                        Learn
+                                    </h3>
+                                    <div class="d-flex infoCard">
+                                        <p class="text-secondary me-4"><i class="fa-regular fa-clock"></i>1h 00m</p>
+                                        <p class="text-secondary"><i
+                                                class="bi bi-reception-2 text-primary"></i></i>Beginner
+                                        </p>
                                     </div>
-                                    <p class=" text-warning mx-2"> 4.5</p>
-                                    <p class=" text-secondary"> (2,500)</p>
+                                    <div class="d-flex">
+                                        <div><i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-half text-warning"></i>
+                                        </div>
+                                        <p class=" text-warning mx-2"> 4.5</p>
+                                        <p class=" text-secondary"> (2,500)</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>170
+                                        </p>
+                                        <del class="text-secondary ">
+                                            <code class="text-secondary fs-6">&dollar;</code>220
+                                        </del>
+                                    </div>
                                 </div>
-                                <div class="d-flex">
-                                    <p class="fw-bold me-2"><code class="fw-bold text-dark fs-6">&dollar;</code>170</p>
-                                    <del class="text-secondary ">
-                                        <code class="text-secondary fs-6">&dollar;</code>220
-                                    </del>
-                                </div>
-                            </div>
-                            <div class="d-flex containerFooterCard p-2 pb-0">
-                                <div class="containerAvatar m-0">
-                                    <img src="assets/img/avatar-7.jpg" alt="avatar"
-                                        class="rounded-circle avatarImg m-0">
-                                </div>
-                                <div class="containerAuthor position-relative d-md-flex justify-content-center align-items-center">
-                                    <p class="ms-2">Sobo Rikhan
-                                    </p>
-                                    <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
-                                </div>
+                                <div class="d-flex containerFooterCard card-footer">
+                                    <div class="containerAvatar">
+                                        <img src="assets/img/avatar-7.jpg" alt="avatar"
+                                            class="rounded-circle avatarImg">
+                                    </div>
+                                    <div class="containerAuthor position-relative">
+                                        <p class="ms-2">Sobo Rikhan
+                                        </p>
+                                        <i class="fa-regular fa-bookmark text-secondary position-absolute"></i>
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>

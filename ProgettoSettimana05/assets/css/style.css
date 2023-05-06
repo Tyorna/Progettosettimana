@@ -2,6 +2,7 @@
 .bi-bell {
   width: 100px;
   background-color: rgb(206, 206, 206);
+  padding: 14px 15px;
 }
 .bi-bell span {
   top: 10px;
@@ -13,9 +14,14 @@
   right: 5px;
 }
 
+.imgBan2 {
+  bottom: 5px;
+  right: 0px;
+}
+
 .open {
   width: 240px;
-  transform: translateX(-120px);
+  transform: translateX(-165px);
 }
 
 a:hover {
@@ -25,6 +31,7 @@ a:hover {
 
 .container {
   min-width: 100%;
+  max-width: 100%;
 }
 
 .banner {
@@ -36,7 +43,6 @@ a:hover {
 .banner button {
   padding: 11px 20px;
 }
-
 .bg-green {
   background-color: rgb(77, 201, 117);
 }
@@ -47,18 +53,18 @@ a:hover {
   color: rgb(210, 147, 84);
 }
 
-/*.card-Body{
+.card {
   height: 100%;
 }
 
-.insideText{
-  height: 52%;
-}*/
+.card-title {
+  font-size: 18px;
+}
+
 .containerFooterCard {
   width: 100%;
-  height: 5%;
-  border-top: 1px solid rgb(202, 202, 202);
   padding: 1px;
+  background-color: transparent;
 }
 .containerFooterCard .containerAvatar {
   width: 10%;
@@ -67,11 +73,36 @@ a:hover {
   width: 100%;
 }
 .containerFooterCard .containerAuthor {
-  width: 90%;
+  width: 85%;
+  color: gray;
 }
 .containerFooterCard .containerAuthor i {
   top: 5px;
   right: 10px;
+}
+
+.infoCard {
+  font-size: 14px;
+}
+
+.bi-star-fill, .bi-star, .bi-star-half {
+  font-size: 10px;
+}
+
+.carousel-control-next-icon {
+  position: absolute;
+  bottom: 190px;
+  right: 10px;
+}
+
+.carousel-control-prev-icon {
+  position: absolute;
+  bottom: 190px;
+  left: 10px;
+}
+
+.prova {
+  width: 45%;
 }
 
 body, html {
