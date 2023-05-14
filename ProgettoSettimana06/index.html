@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Back-office</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="body1">
+  <header class="mb-3">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand me-3 ms-5" href="./homepage.html"><img
+            src="assets/img/transparent-paintball-icon-spray-icon-5e27f54a7d95a6.3651099515796770025144.png"
+            alt="spry-icon"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item me-2">
+              <a class="nav-link active" aria-current="page" href="./homepage.html">Home</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="./details.html">Dettagli</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Back-office</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <h1 class="ms-3 text-center mb-5" id="title">Create the new object</h1>
+    <form class="m-auto text-center">
+      <div class="m-auto d-grid w-50">
+      <label for="name" class="mb-0">Nome:</label>
+      <input type="text" id="name" name="name" required class="mb-4"></br>
+      <label for="description" class="mb-0">Descrizione:</label>
+      <input type="text" id="description" name="description" required class="mb-4"></br>
+      <label for="brand" class="mb-0">Brand:</label>
+      <input type="text" id="brand" name="brand" required class="mb-4"></br>
+      <label for="imageUrl" class="mb-0">Url immagine:</label>
+      <input type="text" id="imageUrl" name="imageUrl" required class="mb-4"></br>
+      <label for="price" class="mb-0">Prezzo:</label>
+      <input type="number" id="price" name="price" required class="mb-4"></br>
+      <button type="button" id="btnSubmit" class="mb-4 rounded-pill bg-success">Aggiungi l'oggetto</button>
+      <button type="button" id="btnReset" data-bs-toggle="modal" data-bs-target="#exampleModal2" class="mb-4 rounded-pill bg-warning">Reset</button>
+      <button type="button" id="btnDelete" data-bs-toggle="modal" data-bs-target="#exampleModal"
+        class="d-none rounded-pill bg-danger">Cancella</button>
+      </div>
+    </form>
+  </main>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 m-auto" id="exampleModalLabel">Attenzione</h1>
+        </div>
+        <div class="modal-body m-auto">
+          Vuoi procedere con la cancellazione?
+        </div>
+        <div class="modal-footer m-auto">
+          <button type="button" class="btn btn-danger" id="confirm">Si</button>
+          <button type="button" class="btn btn-primary" aria-label="Close" data-bs-dismiss="modal">No</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 m-auto" id="exampleModalLabel2">Attenzione</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body m-auto">
+          Vuoi cancellare i campi del form?
+        </div>
+        <div class="modal-footer m-auto">
+          <button type="button" class="btn btn-danger" id="confirmReset">Si</button>
+          <button type="button" class="btn btn-primary" aria-label="Close" data-bs-dismiss="modal">No</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="result"></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/scrpit.js"></script>
+</body>
+
+</html>
