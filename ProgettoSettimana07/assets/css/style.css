@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+
+.device {
+  width: 350px;
+  height: 380px;
+}
+
+.screen {
+  width: 340px;
+  height: 370px;
+  overflow: auto;
+}
+
+.form-select {
+  display: inline-block;
+}/*# sourceMappingURL=style.css.map */
