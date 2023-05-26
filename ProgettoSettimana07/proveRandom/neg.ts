@@ -19,9 +19,9 @@ window.addEventListener("load", function () {
   messaggio!.innerHTML = "";
 });
 
-btnVerifica?.addEventListener("click", Cronologia2);
+btnVerifica?.addEventListener("click", Cronologia3);
 
-function Cronologia2(): string {
+function Cronologia3(): string {
   if (
     credito2!.value == "" ||
     numeroChiamate2!.value == "" ||
@@ -95,11 +95,11 @@ function Cronologia2(): string {
     }
 
     numero404(): string {
-      if( this.credito2 > 0){
         this.credito2 = this.credito2 - cost2;
-      return this.credito2.toFixed(2);
-      } else {
+      if( this.credito2 < 0){
         return `Non hai abbastanza credito per effettuare una chiamata`;
+      } else {
+        return this.credito2.toFixed(2);
       }
      
     }
